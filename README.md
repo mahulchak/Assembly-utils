@@ -15,6 +15,7 @@ These can be compiled simply by :
 
 
 to know how to run each program, 
+
 	$ ./foo 
 
 (where foo is the specific program)
