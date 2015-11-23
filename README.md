@@ -18,7 +18,7 @@ to know how to run each program,
 	$ ./foo 
 (where foo is the specific program)
 
-Note:
-*These are quick and dirty codes, so I take no responsibility of how these will work in your system.
-*If you are looking for a simple utility that is not listed here, let me know. I will try to write one.
-*send me a quick email if you have a question
+Notes:
+-These are quick and dirty codes, so they are not optimized for time or memory.
+-If you are looking for a simple utility that is not listed here, let me know. 
+-If you have a comment/question, please email me.
