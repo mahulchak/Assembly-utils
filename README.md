@@ -21,6 +21,6 @@ to know how to run each program,
 (where foo is the specific program)
 
 Notes:
--These are quick and dirty codes, so they are not optimized for time or memory.
--If you are looking for a simple utility that is not listed here, let me know. 
--If you have a comment/question, please email me.
+These are quick and dirty codes, so they are not optimized for time or memory.
+If you are looking for a simple utility that is not listed here, let me know. 
+If you have a comment/question, please email me.
