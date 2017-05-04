@@ -1,6 +1,3 @@
-//this tool can be used to extract any contig(s) from a fasta file. the contig names should be provided as a list in a file
-//tip: use grep to extract the name of the contigs you want.
-
 #include<iostream>
 #include<string>
 #include<fstream>
@@ -28,9 +25,16 @@ using namespace std;
 		asm_ctg.open(argv[2]);
 		fout.open("asm.new.fasta");
  		
-			while(getline(asm_ctg,sq_name) && getline(asm_ctg,sq))
+			while(getline(asm_ctg,sq))
 			{
-				seq2name[sq_name] = sq;
+				if(sq[0] == '>')
+				{
+					sq_name = sq;
+				}	
+				if(sq[0] != '>')
+				{
+					seq2name[sq_name].append(sq);
+				}
 			}
 		
 						
