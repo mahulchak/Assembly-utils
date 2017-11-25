@@ -12,7 +12,7 @@ These can be compiled simply by :
 	$ g++ -Wall -std=c++0x report_stats.cpp -o report_read_stats
 	$ g++ -Wall -std=c++0x runca_faformatter.cpp -o runcaFaFormatter
 	$ g++ -Wall -std=c++0x xtrac-contig.cpp -o xtrac-contig
-
+	$ g++ -Wall -std=c++0x editSeq.cpp -o editSeq
 
 to know how to run each program, 
 

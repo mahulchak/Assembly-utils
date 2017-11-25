@@ -1,5 +1,3 @@
-//Use this utility to create fofn files to run quiver
-
 #include<iostream>
 #include<fstream>
 #include<string>

@@ -1,5 +1,3 @@
-//this keeps the first word from a multi-word fasta name and generates a new fasta file with the modified names
-
 #include<iostream>
 #include<fstream>
 #include<string>
